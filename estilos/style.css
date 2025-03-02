@@ -32,7 +32,7 @@ main {
     position: absolute;
     background-color: white;
     
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
 
     left: 50%;
@@ -40,7 +40,7 @@ main {
 
     transform: translate(-50%, -50%);
 
-    box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.274);
+    box-shadow: 2px 2px 15px 15px rgba(0, 0, 0, 0.13);
 }
 
 div#formulario > h1 {
@@ -51,46 +51,49 @@ div#formulario > h1 {
 div#formulario > p {
     margin: 9px;
     text-align: justify;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .login {
     background-color: #5f2c82;
     margin: 10px;
-    height: 45px;
+    height: 40px;
     border-radius: 10px;
 }
 
 #email {
     position: absolute;
-    height: 40px;
-    width: 170px;
+    height: 36px;
+    width: 185px;
 
-    left: 27%;
+    left: 23%;
     
-    transform: translate(0%, 10%);
+    transform: translate(-3%, 6%);
 
     border-radius: 10px;
-    background-color: #61ccc8;
+    background-color: #5dc0bd;
     
     font-size: 18px;
     padding: 4px;
+    border: none;
+
 }
 
 #senha {
     position: absolute;
-    height: 40px;
-    width: 170px;
+    height: 36px;
+    width: 185px;
 
-    left: 27%;
+    left: 23%;
     
-    transform: translate(0%, 10%);
+    transform: translate(-3%, 6%);
 
     border-radius: 10px;
-    background-color: #66d8d4;
-
+    background-color: #5dc0bd;
+    
     font-size: 18px;
     padding: 4px;
+    border: none;
 }
 
 i {
@@ -100,5 +103,58 @@ i {
     font-size: 30px;
     color: white;
 
-    transform: translate(0%, 25%);
+    transform: translate(-30%, 20%);
+}
+
+#auto {
+    width: 230px;
+    margin: auto;
+}
+
+.loginn {
+    height: 36px;
+    width: 230px;
+    margin: auto;
+    border: none;
+    background-color: #49a09d;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.loginn a {
+    text-decoration: none;
+    color: white;
+}
+
+#esquecer  #a {
+    background-color: white;
+    border: 1px solid #397a78;
+    width: 230px;
+    height: 36px;
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+    color: #36706e;
+    padding-top: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+div > a {
+    text-decoration: none;
+}
+
+.material-symbols-outlined {
+    position: absolute;
+
+    left: 80%;
+
+    transform: translate(0%, 123%);
+    
+    font-size: 16px;
+
+    color: #36706e;
+
+    cursor: pointer;
 }
