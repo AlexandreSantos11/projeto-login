@@ -16,6 +16,7 @@
 body,html {
     background-color: var(--lilas);
     height: 100vh;
+    width: 100vw;
 }
 
 div#imagem {
@@ -29,18 +30,21 @@ div#imagem {
 }
 
 main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
     position: absolute;
-    background-color: white;
-    
-    height: 520px;
-    border-radius: 20px;
-
-    left: 50%;
     top: 50%;
-
+    left: 50%;
     transform: translate(-50%, -50%);
-
-    box-shadow: 2px 2px 15px 15px rgba(0, 0, 0, 0.13);
+    
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
 }
 
 div#formulario > h1 {
