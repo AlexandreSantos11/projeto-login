@@ -119,13 +119,13 @@ i {
 }
 
 #entrar {
-    width: 235px;
+    width: 100%;
     margin: auto;
 }
 
 .entrar {
     height: 36px;
-    width: 235px;
+    width: 100%;
     margin: auto;
     border: none;
     background-color: #49a09d;
@@ -139,7 +139,7 @@ i {
     color: white;
 }
 
-#esquecer  #a {
+#esquecer  .botao {
     background-color: white;
     border: 1px solid #397a78;
     width: 232px;
