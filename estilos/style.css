@@ -19,16 +19,6 @@ body,html {
     width: 100vw;
 }
 
-div#imagem {
-    background-image: url(../imagens/metal.jpg);
-    background-position: bottom right;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
 main {
     position: relative;
     height: 100vh;
@@ -40,11 +30,29 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
     
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 510px;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
+    rotate: 2deg;
+}
+
+div#imagem {
+    background-image: url(../imagens/metal.jpg);
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+div#formulario { 
+    display: block;
 }
 
 div#formulario > h1 {
@@ -58,9 +66,9 @@ div#formulario > p {
     font-size: 12px;
 }
 
-.login {
+.campo {
     background-color: #5f2c82;
-    margin: 10px;
+    margin:5px;
     height: 40px;
     border-radius: 10px;
 }
@@ -68,7 +76,7 @@ div#formulario > p {
 #email {
     position: absolute;
     height: 36px;
-    width: 185px;
+    width: 191px;
 
     left: 23%;
     
@@ -86,7 +94,7 @@ div#formulario > p {
 #senha {
     position: absolute;
     height: 36px;
-    width: 185px;
+    width: 191px;
 
     left: 23%;
     
@@ -110,14 +118,14 @@ i {
     transform: translate(-30%, 20%);
 }
 
-#auto {
-    width: 230px;
+#entrar {
+    width: 235px;
     margin: auto;
 }
 
-.loginn {
+.entrar {
     height: 36px;
-    width: 230px;
+    width: 235px;
     margin: auto;
     border: none;
     background-color: #49a09d;
@@ -126,7 +134,7 @@ i {
     border-radius: 5px;
 }
 
-.loginn a {
+.entrar a {
     text-decoration: none;
     color: white;
 }
@@ -134,7 +142,7 @@ i {
 #esquecer  #a {
     background-color: white;
     border: 1px solid #397a78;
-    width: 230px;
+    width: 232px;
     height: 36px;
     margin: auto;
     text-align: center;
@@ -143,6 +151,7 @@ i {
     padding-top: 5px;
     text-decoration: none;
     border-radius: 5px;
+    box-shadow: 2px 2px 1px #36706e34;
 }
 
 div > a {
@@ -154,9 +163,9 @@ div > a {
 
     left: 80%;
 
-    transform: translate(0%, 123%);
+    transform: translate(13%, 155%);
     
-    font-size: 16px;
+    font-size: 14px;
 
     color: #36706e;
 
